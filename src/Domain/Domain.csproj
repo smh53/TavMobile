@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\DomainErrors\Errors.Section.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Common\DomainErrors\Errors.Section.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\BaseModels\" />
+  </ItemGroup>
+
+</Project>
