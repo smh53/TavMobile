@@ -44,7 +44,7 @@ POST /section
 ```json
 {
     "name": "Android",
-    "description": "Phone that has Android OS",
+    "description": "Phones that have Android OS",
     "no": "101",
 }
 ```
@@ -59,7 +59,7 @@ POST /section
 {
     "id": "00000000-0000-0000-0000-000000000000",
     "name": "Android",
-    "description": "Phone that has Android OS",
+    "description": "Phones that have Android OS",
     "no": "101",
 }
 ```
